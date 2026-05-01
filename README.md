@@ -181,6 +181,8 @@ Do not place secrets in repo files. The Gemini API key should be stored in Secre
 
 The deploy script creates or reuses the Google Cloud resources and deploys the service.
 
+**How to get a Gemini API Key:** You can acquire or create a free Gemini API key by visiting [Google AI Studio](https://aistudio.google.com/), logging in, and clicking the **Get API key** and **Create API key** button.
+
 Interactive form:
 
 ```bash
