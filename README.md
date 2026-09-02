@@ -4,7 +4,9 @@
 
 Teaching and demo repository for a Cloud Run portfolio template with a Gemini chatbot. Not a product launch.
 
-Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**. Outgoing CTO: Carlos Jerico Dela Torre.
+Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
+
+Docs: [docs/state.md](docs/state.md) · [docs/index.md](docs/index.md) · [FLAGS.md](FLAGS.md) · [AGENTS.md](AGENTS.md)
 
 ## Portfolio Template on Cloud Run
 
@@ -367,14 +369,14 @@ Runtime environment variables:
 
 ## Contributors
 
-Teaching template maintained for [GDG PUP Manila](https://gdgpup.org):
+This project is made possible by the GDG PUP community:
 
-| Role | Contributor |
+| Role | Name |
 | --- | --- |
-| Development | James Gabriele |
-| Development | Kyla Agapito |
-| Development | Justin Royse L. Solomon |
-| CTO | [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj/) (outgoing, historical) |
+| 💻 **Development** | [James Gabriele Torzar](https://www.linkedin.com/in/4regab/) - Cloud Solutions |
+| 💻 **Development** | [Kyla Marie A. Agapito](https://www.linkedin.com/in/kyla-marie-agapito/) - Cloud Solutions |
+| 💻 **Development** | [Justin Royse L. Solomon](https://www.linkedin.com/in/justin-royse-solomon) - Cloud Solutions |
+| 🚀 **CTO** | [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj/) - Chief Technology Officer (2025-2026) |
 
 ## Troubleshooting
 
