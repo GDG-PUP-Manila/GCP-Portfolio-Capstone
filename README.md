@@ -365,6 +365,17 @@ Runtime environment variables:
 - Cloud Storage is private; Cloud Run reads media and serves it from the app domain.
 - For stricter production IAM, replace the default Cloud Run runtime service account with a dedicated account that can access only the Gemini secret.
 
+## Contributors
+
+Teaching template maintained for [GDG PUP Manila](https://gdgpup.org):
+
+| Role | Contributor |
+| --- | --- |
+| Development | James Gabriele |
+| Development | Kyla Agapito |
+| Development | Justin Royse L. Solomon |
+| CTO | [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj/) (outgoing, historical) |
+
 ## Troubleshooting
 
 ### Browser Console: Content Security Policy blocks inline script
