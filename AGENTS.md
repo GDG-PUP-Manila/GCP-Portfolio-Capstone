@@ -28,3 +28,9 @@ Owner: GDG PUP Technology (incoming CTO). Handover 2026-09-02.
 
 - Docs only changes belong in markdown; do not invent production requirements for this teaching template.
 - Sample deploy names (`bryl`, `bryllim`) are teaching placeholders called out in FLAGS.
+
+## FMD
+
+**Built on FMD philosophy (v1.31.0)** - INDEX / STATE / FLAGS control plane for humans and AI; no FMD engine install.
+
+Read order stays: docs/state.md then docs/index.md then FLAGS.md then task docs.
