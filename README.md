@@ -1,5 +1,11 @@
 # Complete Beginner's Guide: Personalizing Your AI Portfolio
 
+[![Status: Teaching](https://img.shields.io/badge/Status-Teaching-blue)](docs/state.md)
+[![Stack: Cloud Run](https://img.shields.io/badge/Stack-Cloud%20Run-black)](#about)
+[![FMD philosophy: 1.31.0](https://img.shields.io/badge/FMD%20philosophy-1.31.0-blue)](AGENTS.md)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 Teaching and demo repository for a Cloud Run portfolio template with a Gemini chatbot. Not a product launch.
 
 Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
@@ -7,6 +13,7 @@ Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
 ## Table of Contents
 
 - [About](#about)
+- [Start here](#start-here)
 - [Portfolio Template on Cloud Run](#portfolio-template-on-cloud-run)
 - [Architecture](#architecture)
 - [What is in this project?](#what-is-in-this-project)
@@ -31,6 +38,12 @@ Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
 Teaching and demo repository for a Cloud Run portfolio template with a Gemini chatbot. Learners personalize HTML/CSS/JS content, train a Markdown knowledge base, and deploy to Google Cloud. Not a product launch.
 
 Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
+
+## Start here
+
+- **Humans:** this README, then [docs/state.md](docs/state.md)
+- **Agents:** [AGENTS.md](AGENTS.md) (state → index → FLAGS)
+- **Contributors:** table below
 
 ## Portfolio Template on Cloud Run
 
@@ -396,14 +409,14 @@ Runtime environment variables:
 
 ## Contributors
 
-This project is made possible by the GDG PUP community:
+This project is made possible by the GDG PUP community.
 
-| Role | Name |
-| --- | --- |
-| 💻 **Development** | [James Gabriele Torzar](https://www.linkedin.com/in/4regab/) - Cloud Solutions |
-| 💻 **Development** | [Kyla Marie A. Agapito](https://www.linkedin.com/in/kyla-marie-agapito/) - Cloud Solutions |
-| 💻 **Development** | [Justin Royse L. Solomon](https://www.linkedin.com/in/justin-royse-solomon) - Cloud Solutions |
-| 🚀 **CTO** | [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj/) - Chief Technology Officer (2025-2026) |
+| Name | Role | GitHub |
+| --- | --- | --- |
+| [Carlos Jerico Dela Torre](https://www.linkedin.com/in/delatorrecj) | Chief Technology Officer (2025-2026) | [@delatorrecj](https://github.com/delatorrecj) |
+| [James Gabriele Torzar](https://www.linkedin.com/in/4regab) | Cloud Solutions / Front End | [@4regab](https://github.com/4regab) |
+| [Justin Royse L. Solomon](https://www.linkedin.com/in/justin-royse-solomon) | Cloud Solutions / Front End | [@Justinroyse](https://github.com/Justinroyse) |
+| [Kyla Marie A. Agapito](https://www.linkedin.com/in/kyla-marie-agapito) | Cloud Solutions / DevOps | [@KylaAgapito](https://github.com/KylaAgapito) |
 
 ## Troubleshooting
 
