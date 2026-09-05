@@ -1,12 +1,36 @@
 # Complete Beginner's Guide: Personalizing Your AI Portfolio
 
-## Status / Handover
-
 Teaching and demo repository for a Cloud Run portfolio template with a Gemini chatbot. Not a product launch.
 
 Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
 
-Docs: [docs/state.md](docs/state.md) · [docs/index.md](docs/index.md) · [FLAGS.md](FLAGS.md) · [AGENTS.md](AGENTS.md)
+## Table of Contents
+
+- [About](#about)
+- [Portfolio Template on Cloud Run](#portfolio-template-on-cloud-run)
+- [Architecture](#architecture)
+- [What is in this project?](#what-is-in-this-project)
+- [Glossary of Terms for Beginners](#glossary-of-terms-for-beginners)
+- [Quick start](#quick-start)
+- [Phase 2: Training Your AI Chatbot](#phase-2-training-your-ai-chatbot-publiccontextmd)
+- [Phase 3: Updating the Website](#phase-3-updating-the-website-publicindexhtml)
+- [Phase 4: Changing Colors & Style](#phase-4-changing-colors--style-publicstylescss)
+- [Phase 5: Swapping Images](#phase-5-swapping-images)
+- [Phase 6: Going Live (GCP Deployment)](#phase-6-going-live-gcp-deployment)
+- [Cleaning Up (Avoiding Costs)](#cleaning-up-avoiding-costs)
+- [Updating The Site](#updating-the-site)
+- [Add Cloud CDN for assets](#add-cloud-cdn-for-assets)
+- [Configuration](#configuration)
+- [Security Notes](#security-notes)
+- [Documentation](#documentation)
+- [Contributors](#contributors)
+- [Troubleshooting](#troubleshooting)
+
+## About
+
+Teaching and demo repository for a Cloud Run portfolio template with a Gemini chatbot. Learners personalize HTML/CSS/JS content, train a Markdown knowledge base, and deploy to Google Cloud. Not a product launch.
+
+Owner: **GDG PUP Technology** (incoming CTO). Handover **2026-09-02**.
 
 ## Portfolio Template on Cloud Run
 
@@ -61,7 +85,7 @@ If you're new to coding, here are some terms you'll see in this guide:
 
 ---
 
-## Prerequisites: Getting the Code & Git Basics
+## Quick start
 
 ### 1. Clone the Repository
 
@@ -80,32 +104,26 @@ git commit -m "Update portfolio content and styles"
 git push origin main
 ```
 
----
-
-## Phase 1: Setting Up Your Workshop
-
-### 1. Install Node.js
+### 3. Install Node.js
 
 Install **Node.js 20+** (LTS is fine) from [nodejs.org](https://nodejs.org/).
 
-### 2. Open Your Project
-
-Open this folder in your editor and open a terminal.
-
-### 3. Install Dependencies
+### 4. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Add Your API Key (The Chatbot's Power)
+### 5. Add Your API Key (The Chatbot's Power)
 
 Go to [Google AI Studio](https://aistudio.google.com/) and get a free API key. Then set it in your shell:
 
 - **Windows (PowerShell):** `$env:GEMINI_API_KEY="PASTE_YOUR_KEY_HERE"`
 - **Mac/Linux:** `export GEMINI_API_KEY="PASTE_YOUR_KEY_HERE"`
 
-### 5. Start the Preview
+Secrets posture: [FLAGS.md](FLAGS.md) and [docs/state.md](docs/state.md).
+
+### 6. Start the Preview
 
 ```bash
 npm run dev
@@ -366,6 +384,15 @@ Runtime environment variables:
 - Rate limiting is in Cloud Run instance memory. Stronger multi-instance protection needs Cloud Armor, reCAPTCHA/Turnstile, or a shared Redis-backed limiter.
 - Cloud Storage is private; Cloud Run reads media and serves it from the app domain.
 - For stricter production IAM, replace the default Cloud Run runtime service account with a dedicated account that can access only the Gemini secret.
+
+## Documentation
+
+| Doc | Purpose |
+|-----|---------|
+| [State](docs/state.md) | Operate position, ownership, cold start |
+| [Index](docs/index.md) | Document manifest |
+| [FLAGS](FLAGS.md) | Improvement register |
+| [AGENTS](AGENTS.md) | Agent read order |
 
 ## Contributors
 
